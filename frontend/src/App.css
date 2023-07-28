@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Graphik-regular';
+    src: url('../public/assets/fonts/GraphikRegular.otf');
+}
+
+@font-face {
+    font-family: 'Graphik-semi-bold';
+    src: url('../public/assets/fonts/GraphikSemibold.otf');
+}
+
+@font-face {
+    font-family: 'Graphik-medium';
+    src: url('../public/assets/fonts/GraphikMedium.otf');
+}

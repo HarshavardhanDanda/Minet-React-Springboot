@@ -1,0 +1,27 @@
+server:
+  port: 9004
+
+spring:
+  application:
+    name: WALLET-SERVICE
+  security:
+    jwt:
+      token:
+        secret-key: secret123
+        expire-length: 300000
+  datasource:
+    url: jdbc:mysql://3.145.101.249:30036/BC88_minet?serverTimezone=UTC
+    username: root
+    password: Bootcamp@88
+  flyway:
+    baselineOnMigrate: true
+    locations: "classpath:db/migration"
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    preferIpAddress: false
+    hostname: localhost

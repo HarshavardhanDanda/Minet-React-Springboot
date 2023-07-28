@@ -1,0 +1,63 @@
+server:
+  port: 9191
+
+spring:
+  application:
+    name: API-GATEWAY
+  flyway:
+    baselineOnMigrate: true
+    locations: "classpath:db/migration"
+  datasource:
+    url: jdbc:mysql://3.145.101.249:30036/BC88_minet?useSSL=false
+    username: root
+    password: Bootcamp@88
+    hikari:
+      maximum-pool-size: 10
+  jpa:
+    properties:
+      hibernate:
+
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  cloud:
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+      routes:
+        - id: USER-SERVICE
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/users/**
+        - id: CRYPTO-SERVICE
+          uri: lb://CRYPTO-SERVICE
+          predicates:
+            - Path=/cryptocurrency/**
+        - id: PORTFOLIO-SERVICE
+          uri: lb://PORTFOLIO-SERVICE
+          predicates:
+            - Path=/portfolio/**
+        - id: WALLET-SERVICE
+          uri: lb://WALLET-SERVICE
+          predicates:
+            - Path=/wallets/**
+    
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    instance:
+      appname: API-GATEWAY
+      hostname: localhost

@@ -1,0 +1,298 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Jhon doe",
+      "emailId": "JhonDoe1996@gmail.com",
+      "password": "Minet1@password.com"
+    },
+    {
+      "id": 2,
+      "fullName": "Merry jane",
+      "emailId": "MerryJane1996@gmail.com",
+      "password": "Minet2@password.com"
+    }
+  ],
+  "cryptoCurrency": [
+    {
+        "id": 1,
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
+        "marketCap": "$54.6T",
+        "created": "2022-12-23",
+        "price": 345466.54,
+        "priceAt1H": 345460.4,
+        "priceAt1D": 345470.4,
+        "priceAt1W": 345500.31,
+        "priceAt1M": 345456.33,
+        "totalSupply": "$2.9T",
+        "circulationSupply": "18.8M BTC",
+        "priceChange": 1.6
+    },
+    {
+        "id": 2,
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "icon": "https://w7.pngwing.com/pngs/268/1013/png-transparent-ethereum-eth-hd-logo-thumbnail.png",
+        "marketCap": "$162.92B",
+        "created": "2022-12-23",
+        "price": 1297.93,
+        "priceAt1H": 1290.9,
+        "priceAt1D": 1299.99,
+        "priceAt1W": 1300.9,
+        "priceAt1M": 1296.55,
+        "totalSupply": "$11.5B",
+        "circulationSupply": "122.60M ETH",
+        "priceChange": -0.6
+    },
+    {
+        "id": 3,
+        "name": "USD coin",
+        "symbol": "USD",
+        "icon": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389",
+        "marketCap": "$1",
+        "created": "2022-12-23",
+        "price": 1,
+        "priceAt1H": 1,
+        "priceAt1D": 1,
+        "priceAt1W": 1,
+        "priceAt1M": 1,
+        "totalSupply": "$11.5T",
+        "circulationSupply": "11T USD",
+        "priceChange": 2.6
+    },
+    {
+        "id": 4,
+        "name": "XRP",
+        "symbol": "XRP",
+        "icon": "https://cdn-icons-png.flaticon.com/128/6675/6675833.png",
+        "marketCap": "$4.2",
+        "created": "2022-12-23",
+        "price": 24942.54,
+        "priceAt1H": 23942.54,
+        "priceAt1D": 2482.54,
+        "priceAt1W": 24442.54,
+        "priceAt1M": 23942.54,
+        "totalSupply": "$11.5T",
+        "circulationSupply": "23.5T USD",
+        "priceChange": -3.69
+    },
+    {
+        "id": 5,
+        "name": "Polkadot",
+        "symbol": "PKD",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeEq2ilWnFAsNgYntJ3U_0YA6HSEb6eTLgWOisSbAqSQ&s",
+        "marketCap": "$3.4",
+        "created": "2022-12-23",
+        "price": 104.52,
+        "priceAt1H": 106.87,
+        "priceAt1D": 105.64,
+        "priceAt1W": 98.67,
+        "priceAt1M": 90.76,
+        "totalSupply": "$5.3T",
+        "circulationSupply": "21.5T USD",
+        "priceChange": -1.82
+    },
+    {
+        "id": 6,
+        "name": "Cardano",
+        "symbol": "ADA",
+        "icon": "https://seeklogo.com/images/C/cardano-ada-logo-4B6BADDB43-seeklogo.com.png",
+        "marketCap": "$2.7",
+        "created": "2022-12-23",
+        "price": 57.21,
+        "priceAt1H": 56.76,
+        "priceAt1D": 55.87,
+        "priceAt1W": 53.87,
+        "priceAt1M": 51.89,
+        "totalSupply": "$4.2T",
+        "circulationSupply": "53.2T USD",
+        "priceChange": 1.11
+    },
+    {
+        "id": 7,
+        "name": "Dogecoin",
+        "symbol": "DOGE",
+        "icon": "data:image/png;base64,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",
+        "marketCap": "$2.3",
+        "created": "2022-12-23",
+        "price": 17.64,
+        "priceAt1H": 18.3,
+        "priceAt1D": 18.6,
+        "priceAt1W": 19.6,
+        "priceAt1M": 18.56,
+        "totalSupply": "$3.4T",
+        "circulationSupply": "54.2T USD",
+        "priceChange": -6.96
+    },
+    {
+        "id": 8,
+        "name": "Tether",
+        "symbol": "USDT",
+        "icon": "https://w7.pngwing.com/pngs/113/18/png-transparent-tether-hd-logo-thumbnail.png",
+        "marketCap": "$25.4",
+        "created": "2022-12-23",
+        "price": 88.1,
+        "priceAt1H": 87.9,
+        "priceAt1D": 89.9,
+        "priceAt1W": 87.9,
+        "priceAt1M": 86.5,
+        "totalSupply": "$5.5T",
+        "circulationSupply": "17.8T USD",
+        "priceChange": -5.49
+    },
+    {
+        "id": 9,
+        "name": "BNB",
+        "symbol": "BNB",
+        "icon": "https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png?1644979850",
+        "marketCap": "$25.4",
+        "created": "2022-12-23",
+        "price": 78.1,
+        "priceAt1H": 79.9,
+        "priceAt1D": 80.9,
+        "priceAt1W": 81.9,
+        "priceAt1M": 84.5,
+        "totalSupply": "$5.5T",
+        "circulationSupply": "17.8T USD",
+        "priceChange": -8.7
+    }
+],
+  "watchLists": [
+    {
+      "id": 1,
+      "userId": 1,
+      "cryptoCurrencyId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "cryptoCurrencyId": 2
+    }
+  ],
+  "wallets": [
+    {
+      "id": 1,
+      "name": "Bitcoin Wallet",
+      "balance": 2.5429,
+      "cryptoCurrencyId": 1,
+      "userId": 1,
+      "priceChange": 2.6
+    },
+    {
+      "id": 2,
+      "name": "Ethereum Wallet",
+      "balance": 23.5454,
+      "cryptoCurrencyId": 2,
+      "userId": 1,
+      "priceChange": 1.06
+    },
+    {
+      "id": 3,
+      "name": "USD Coin Wallet",
+      "balance": 35000,
+      "cryptoCurrencyId": 3,
+      "userId": 1,
+      "priceChange": 0
+    },
+    {
+      "id": 4,
+      "name": "Bitcoin Wallet",
+      "balance": 1.5429,
+      "cryptoCurrencyId": 1,
+      "userId": 2,
+      "priceChange": 3
+    },
+    {
+      "id": 5,
+      "name": "Ethereum Wallet",
+      "balance": 33.5454,
+      "cryptoCurrencyId": 2,
+      "userId": 2,
+      "priceChange": 3.4
+    },
+    {
+      "id": 6,
+      "name": "USD Coin Wallet",
+      "balance": 25000,
+      "cryptoCurrencyId": 3,
+      "userId": 2,
+      "priceChange": 0
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 3000,
+      "type": "purchase",
+      "status": "success",
+      "transactionFee": 1000,
+      "transactionTime": "2022-03-25T12:00:00-06:30",
+      "quantity": 0.0245,
+      "walletId": 1,
+      "cryptoCurrencyId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "amount": 2000,
+      "type": "sell",
+      "status": "success",
+      "transactionFee": 500,
+      "transactionTime": "2022-04-25T12:00:00-06:30",
+      "quantity": 1.45,
+      "walletId": 2,
+      "cryptoCurrencyId": 2,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "amount": 3000,
+      "type": "purchase",
+      "status": "pending",
+      "transactionFee": 900,
+      "transactionTime": "2022-03-25T12:00:00-06:30",
+      "quantity": 0.0245,
+      "walletId": 1,
+      "cryptoCurrencyId": 6,
+      "userId": 2
+    },
+    {
+      "id": 4,
+      "amount": 2000,
+      "type": "purchase",
+      "status": "pending",
+      "transactionFee": 800,
+      "transactionTime": "2022-03-25T12:00:00-06:30",
+      "quantity": 0.276,
+      "walletId": 2,
+      "cryptoCurrencyId": 3,
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "amount": 12000,
+      "type": "sell",
+      "status": "pending",
+      "transactionFee": 500,
+      "transactionTime": "2022-04-25T12:00:00-06:30",
+      "quantity": 1.45,
+      "walletId": 2,
+      "cryptoCurrencyId": 4,
+      "userId": 1
+    },
+    {
+      "id": 6,
+      "amount": 1000,
+      "type": "sell",
+      "status": "fail",
+      "transactionFee": 500,
+      "transactionTime": "2022-04-25T12:00:00-06:30",
+      "quantity": 1.45,
+      "walletId": 2,
+      "cryptoCurrencyId": 5,
+      "userId": 1
+    }
+  ]
+}

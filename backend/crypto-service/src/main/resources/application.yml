@@ -1,0 +1,35 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: CRYPTO-SERVICE
+  security:
+    jwt:
+      token:
+        secret-key: secret123
+        expire-length: 300000
+  datasource:
+    url: jdbc:mysql://3.145.101.249:30036/BC88_minet?useSSL=false
+    username: root
+    password: Bootcamp@88
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  flyway:
+    baselineOnMigrate: true
+    locations: "classpath:db/migration"
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    preferIpAddress: false
+    hostname: localhost
